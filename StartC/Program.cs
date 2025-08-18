@@ -6,7 +6,7 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            string aluno1, aluno2;
+            String aluno1, aluno2;
             int age1, age2;
 
             Console.WriteLine("Insira o nome do primeiro aluno:");
@@ -23,7 +23,7 @@ namespace MyApp
 
             if (age1 == age2)
             {
-                Console.WriteLine("As idades são iguais.");
+                Console.WriteLine("Ambos alunos tem a mesma idade.");
             }
             if (age1 > age2)
             {
